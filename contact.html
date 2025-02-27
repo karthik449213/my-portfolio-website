@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me(karthik)</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="logo"><img  class="logos" src="images/download.png" alt="my logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out for any inquiries or collaborations.</p>
+
+        <div class="contact-container">
+            <!-- Contact Form to get in touch -->
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Contact Info  for any queries-->
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Email: karthikpiinasi@gmail.com</p>
+                <p>Phone: +917075543886</p>
+                <p>Location: Andhra Pradesh, India</p>
+
+                <div class="social-icons">
+
+                    <a href="https://www.linkedin.com/in/karthik-m-279754326/"><img class="images" src="C:\Users\Mohan\Desktop\karthik\images\linkdin.png"></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Maps Embed  to show my location-->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126731.6324342235!2d-74.25987528793014!3d40.69767006358612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!003m3!1m2!1s0x89c250b39b2877bb%3A0x5a0b4b4f55b65349!2sNew%20York%2C%20USA!5e0!3m2!1sen!2s!4v17000000000" 
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy;  All rights reserved.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
